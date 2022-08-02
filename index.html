@@ -1,0 +1,56 @@
+
+<!DOCTYPE html><html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Codificador e Decodificador</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+        
+    <body>
+        <header>
+            <img class="logo" src="./img/Vector.png" alt="logo da alura">
+            <h1 class="title">Codificador e Decodificador </h1>
+        </header>
+        
+
+        <div class="main"> 
+            
+                <div class="codificador">
+                    <textarea cols="10" name="" id="txt-area1" placeholder="Digite seu texto"></textarea>
+            
+                    <div class="info">
+                        <img src="./img/exclamacao.png" alt="ponto de exclamação" width="12px" >
+                        <p >Apenas letras minúsculas e sem acento.</p>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="button b1">Codificar</button>
+                        <button class="button b2">Decodificar</button>
+                    </div>
+                </div>
+            
+        </div>
+            
+        
+        <div id="decodificador">
+            <img src="./img/lupa.png" class="icone" id="icone" alt="imagem procurando com lupa">
+            <h2 id="none">Nenhuma mensagem encontrada!</h2>
+            
+            <textarea cols="10" readonly name="" id="txt-area2" placeholder="Digite um texto que você deseja codificar ou decodificar"></textarea>
+    
+            <h3 id="msg"></h3>
+
+            <div id="copy"></div>
+        </div> 
+
+    </body>
+
+    <script src="./js/codificador_e_decodificador.js"></script>
+</html>
